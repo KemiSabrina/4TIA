@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Padaria Delícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc80;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .menu li a:hover {
+            color: #ff5722;
+        }
+        .product {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .product img {
+            width: 200px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        .product p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cardápio</h1>
+    <ul class="menu">
+        <li><a href="#paes">Pães</a></li>
+        <li><a href="#bolos">Bolos</a></li>
+        <li><a href="#doces">Doces</a></li>
+        <li><a href="#salgados">Salgados</a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="padaria.html">Home</a></li>
+        <li><a href="sobre.html">História</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</header>
+
+<div class="container">
+
+    <section id="paes">
+        <h2>Pães</h2>
+        <div class="product">
+            <img src="pao_frances.jpg" alt="Pão Francês">
+            <h3>Pão Francês</h3>
+            <p>Pão fresquinho feito diariamente.</p>
+        </div>
+        <div class="product">
+            <img src="pao_integral.jpg" alt="Pão Integral">
+            <h3>Pão Integral</h3>
+            <p>Opção saudável e deliciosa para o seu café da manhã.</p>
+        </div>
+    </section>
+
+    <section id="bolos">
+        <h2>Bolos</h2>
+        <div class="product">
+            <img src="bolo_chocolate.jpg" alt="Bolo de Chocolate">
+            <h3>Bolo de Chocolate</h3>
+            <p>Bolo macio e úmido, perfeito para os amantes de chocolate.</p>
+        </div>
+        <div class="product">
+            <img src="bolo_cenoura.jpg" alt="Bolo de Cenoura">
+            <h3>Bolo de Cenoura</h3>
+            <p>Delicioso bolo caseiro, com cobertura de chocolate.</p>
+        </div>
+    </section>
+
+    <section id="doces">
+        <h2>Doces</h2>
+        <div class="product">
+            <img src="brigadeiro.jpg" alt="Brigadeiro">
+            <h3>Brigadeiro</h3>
+            <p>Doce brasileiro tradicional, feito com muito amor.</p>
+        </div>
+        <div class="product">
+            <img src="pastel_nata.jpg" alt="Pastel de Nata">
+            <h3>Pastel de Nata</h3>
+            <p>Uma deliciosa sobremesa portuguesa, leve e cremosa.</p>
+        </div>
+    </section>
+
+    <section id="salgados">
+        <h2>Salgados</h2>
+        <div class="product">
+            <img src="coxinha.jpg" alt="Coxinha">
+            <h3>Coxinha</h3>
+            <p>A tradicional coxinha brasileira, com recheio de frango.</p>
+        </div>
+        <div class="product">
+            <img src="quiche.jpg" alt="Quiche">
+            <h3>Quiche</h3>
+            <p>Uma torta salgada deliciosa, com recheio cremoso.</p>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>

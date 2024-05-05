@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Padaria Delícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc80;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .menu li a:hover {
+            color: #ff5722;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info p {
+            font-size: 16px;
+        }
+        .contact-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #ff5722;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contato</h1>
+    <ul class="menu">
+        <li><a href="padaria.html">Home</a></li>
+        <li><a href="sobre.html">História</a></li>
+        <li><a href="cardápio.html">Cardápio</a></li>
+    </ul>
+</header>
+
+<div class="container">
+
+    <div class="contact-info">
+        <p>Entre em contato conosco para tirar dúvidas, fazer sugestões ou encomendar produtos.</p>
+        <p>Telefone: (42) 9 9999-7070</p>
+        <p>E-mail: contato@padariadelicias.com</p>
+        <p>Endereço: Rua das Delícias, 123 - Bairro Feliz - Cidade</p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Envie-nos uma mensagem</h2>
+        <form action="enviar_mensagem.php" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required><br>
+            <input type="email" name="email" placeholder="Seu e-mail" required><br>
+            <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
